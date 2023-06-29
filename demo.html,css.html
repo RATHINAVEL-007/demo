@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraion form1</title>
+    <style>
+        form{
+            margin:auto;
+            width:min(600px,80%);
+            padding:20px;
+            border:1px solid #ddd;
+            border-radius: 10px;
+            background-image:url(images/search?view=detailV2&ccid=SaRz63RT&id=E05D5A4324B306711E9069551D98CE0DFE4920C3&thid=OIP.SaRz63RTbKI5uXM_TFzpyAHaFj&mediau) ;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        h2{
+            text-align: center;
+            font-size:28px;
+            margin-bottom: 20px;
+
+    
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+
+        }
+        input[type="text"],
+        input[type="pass"],
+        input[type="date"]
+    
+        textarea,
+        select,
+        #dob{
+            width: 100%;
+            padding:10px;
+            margin-bottom: 20px;
+            border:1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            opacity: 0.5;
+
+        }
+        textarea{
+            height: 100px;
+            resize: vertical;
+        }
+        .button{
+            display:flex;
+            justify-content: center;
+        }
+
+        
+
+        
+
+
+        
+    </style>
+
+</head>
+<body>
+    <h2>Registration form</h2>
+    <form>
+        <label for="Name"> Name :</label>
+        <input type="text" placeholder="Name"/>
+
+        
+        <label for="Father's name"> Father's name :</label>
+        <input type="text" placeholder="Father's name"/>
+
+        <label for="Mother's name"> Mother's name :</label>
+        <input type="text" placeholder="Mother's name"/>
+
+        <label for="DOB"> DOb :</label>
+        <input type="date" placeholder="DOB"/>
+
+        <label for="Email"> Email :</label>
+        <input type="text" placeholder="Email"/>
+
+        <label for="Phone no"> Phone no :</label>
+        <input type="text" placeholder="Phone no"/>
+
+        <label for="gender"> Gender :</label>
+        <select id="gender " name="gender">
+            <option value="">select Gender</option>
+            <option value="male"> Male</option>
+            <option value="female"> Female</option>
+            <option value="others">Others</option>
+
+
+        </select>
+        <label for="address"> Address :</label>
+        <textarea id="address" name="address"></textarea>
+
+        <label for="country"> Country :</label>
+        <input type="text" placeholder="Country"/>
+        
+        <label for="password" > Password :</label>
+        <input type="pass" placeholder="pass"/>
+
+        <label for="confirm password">Confirm password :</label>
+        <input type="pass" placeholder="password"/>
+
+        <div class="button">
+            <button for="submit">Submit</button>
+
+        </div>
+        
+        
+
+
+
+        
+
+        
+
+        
+        
+        </form>
+    
+</body>
+</html>
